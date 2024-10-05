@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resturent Menu</title>
+    <style>
+        * {
+            font-family: "Karma", sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav {
+            /* margin-bottom: 30px; */
+            padding-bottom: 30px;
+            display: flex;
+            gap: 500px;
+            position:fixed;
+            background-color: rgb(237, 241, 242);
+            width: 100%;
+            align-items: baseline;
+        }
+
+        #pics1 {
+            display: flex;
+            
+            padding: 40px;
+            /* margin: 20px; */
+            box-sizing: border-box;
+            text-overflow: clip;
+
+
+        }
+
+        #pics1 .pic1 {
+            margin-left: 30px;
+        }
+
+        .pic1.pic2 .pic3 .pic4 {
+            margin-top: 30px;
+            width: 270px;
+            margin-left: 30px;
+
+        }
+
+        #pics2 {
+            display: flex;
+            padding: 50px;
+            /* margin: 20px; */
+            box-sizing: border-box;
+            text-overflow: clip;
+        }
+
+        #pics2 .pic1 {
+            margin-left: 30px;
+        }
+
+        #footer {
+            display: flex;
+            padding: 50px;
+        }
+        .box3{
+            margin-left: 50px;
+        }
+        .box3 span{
+            padding: 10px;
+            text-align: center;
+            /* background-color: rgba(0, 0, 0, 0.16); */
+            margin-left: 10px;
+            gap: 8px;
+            flex-wrap: wrap;
+
+            }
+            span p{
+                background-color: rgb(140, 143, 142);
+                padding: 7px;
+            }
+            span p:first-child{
+                background-color: black;
+                color: aliceblue;
+            }
+             
+                
+            
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <select style="width: 28px; height: 29px;margin-top: 20px;margin-left: 20px;">
+            <option></option>
+            <option>Close Menu</option>
+            <option>Food</option>
+            <option>About</option>
+
+        </select>
+        <h3>Charan Resturent</h3>
+        <h3>Mail</h3>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id="pics1">
+        <div class="pic1">
+            <img src="sandwich.jpg" height="380px" width="270px">
+            <br>
+            <br>
+            <p style="text-align: center;margin-right:20%;">The Perfect Sandwich, A Real NYC Classic</p><br>
+            <p style="text-align: center;margin-right:20%;">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Velit.</p>
+        </div>
+        <div class="pic2">
+            <img src="steak.jpg" height="380px" width="270px">
+            <br>
+            <br>
+
+            <p style="text-align: center;margin-right:20%;">Let Me Tell You About This Steak</p><br>
+            <p style="text-align: center;margin-right:20%;">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Velit.</p>
+        </div>
+        <div class="pic3">
+            <img src="cherries.jpg" height="380px" width="270px">
+            <br>
+            <br>
+
+            <p style="text-align: center;margin-right:20%;">Cherries, interrupted</p>
+            <br>
+            <p style="text-align: center;margin-right:20%;">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Velit.</p>
+        </div>
+        <div class="pic4">
+            <img src="wine.jpg" height="380px" width="270px">
+            <br>
+            <br>
+
+            <p style="text-align: center;margin-right:20%;">Once Again, Robust Wine and Vegetable Pasta</p><br>
+            <p style="text-align: center;margin-right:20%;">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Velit.</p>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div id="pics2">
+        <div class="pic1">
+            <img src="popsicle.jpg" height="380px" width="270px">
+            <br>
+            <br>
+            <p style="text-align: center;margin-right:20%;">The Perfect Sandwich, A Real NYC Classic</p><br>
+            <p style="text-align: center;margin-right:20%;">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Velit.</p>
+        </div>
+        <div class="pic2">
+            <img src="salmon.jpg" height="380px" width="270px">
+            <br>
+            <br>
+
+            <p style="text-align: center;margin-right:20%;">Let Me Tell You About This Steak</p><br>
+            <p style="text-align: center;margin-right:20%;">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Velit.</p>
+        </div>
+        <div class="pic3">
+            <img src="sandwich2.jpg" height="380px" width="270px">
+            <br>
+            <br>
+
+            <p style="text-align: center;margin-right:20%;">Cherries, interrupted</p>
+            <br>
+            <p style="text-align: center;margin-right:20%;">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Velit.</p>
+        </div>
+        <div class="pic4">
+            <img src="croissant.jpg" height="380px" width="270px">
+            <br>
+            <br>
+
+            <p style="text-align: center;margin-right:20%;">Once Again, Robust Wine and Vegetable Pasta</p><br>
+            <p style="text-align: center;margin-right:20%;">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Velit.</p>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <center>
+        <h4>About Me, The Food Man</h4>
+    </center>
+    <br>
+    <center>
+        <img src="chef.jpg">
+    </center>
+    <br>
+    <center>
+        <h3>I am Who I Am!</h3>
+    </center>
+    <br>
+    <center><cite>With Passion For Real, Good Food</cite></center>
+    <center>
+        <p style="padding: 50px;">Just me, myself and I, exploring the universe of unknownment. I have a heart of love
+            and an interest of lorem
+            ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut
+            rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.
+            Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue
+            gravida diam non fringilla.</p>
+    </center>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <div id="footer">
+        <div class="box1" style="width: 30%;">
+            <h2>Footer</h2>
+            <br>
+            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies
+                congue gravida diam non fringilla.</p>
+            <br>
+            <h5>Powered by w3.css</h5>
+
+        </div>
+        <div class="box2" style="width: 30%;margin-left: 22px;">
+            <h2>BLOG POSTS</h2>
+            <br>
+            <div class="minibox1" style="display: flex;text-align: center;">
+                <img src="workshop1.jpg" style="width: 40px;">
+                <p>Lorem</p>
+                <p>Sed mattis nunc</p>
+            </div>
+        <hr>
+        <div class="minibox2" style="display: flex;text-align: center;">
+            <img src="workshop2.jpg" style="width: 40px;">
+            <p>Ipsum</p>
+            <p>Sed mattis nunc</p>
+        </div>
+    </div>
+
+        <div class="box3" style="width:30% ">
+            <h2>POPULAR TAGS</h2>
+            <br>
+            <span style="display: flex;padding: 10px;">
+                <p>Travel</p>
+                <p>Newyork</p>
+                <p>Dinnetr</p>
+                <p>Chicken</p>
+                <p>Fried</p>
+                <p>Fish</p>
+                <p>Duck</p>
+                <p>Drinks</p>
+
+            </span>
+            
+
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
